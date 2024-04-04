@@ -1,4 +1,4 @@
-public class Celular {
+     class Celular {
     private String proprietario;
     private String marca;
     private int modelo;
@@ -29,7 +29,8 @@ public class Celular {
     public String toString() {
         return "Celular{" + "marca=" + marca + ", proprietario=" + proprietario + ", modelo=" + modelo + '}';
     }
-
+}
+public class Main{
     public static void main(String[] args) {
         Celular celular1 = new Celular("Joao", "Samsung", 22);
         Celular celular2 = new Celular("Daniel", "Samsung", 24);
